@@ -1,5 +1,6 @@
 <x-layout>
 <h1>Cadastro de serviços</h1>
+<a href="/">Tela Inicial</a>
 <form action="/servico/cadastro" method="post">
     
     <select name="id_clientes" required>

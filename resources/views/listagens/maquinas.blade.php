@@ -6,6 +6,7 @@
 </style>
 <h1>Listagem de Maquinas</h1>
 <a href="/maquinas/cadastro">Cadastre</a>
+<a href="/">Tela Inicial</a>
 <table>
     <thead>
         <tr>

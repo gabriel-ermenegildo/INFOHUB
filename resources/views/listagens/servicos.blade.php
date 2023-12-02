@@ -6,6 +6,7 @@
 </style>
 <h1>Listagem de Servicos</h1>
     <a href="/servico/cadastro">Cadastre</a>
+    <a href="/">Tela Inicial</a>
 <table>
     <thead>
         <tr>

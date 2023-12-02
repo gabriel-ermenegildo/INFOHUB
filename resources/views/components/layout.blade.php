@@ -1,4 +1,3 @@
-<x-layout>
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -15,4 +14,3 @@
     </main>
 </body>
 </html>
-</x-layout>

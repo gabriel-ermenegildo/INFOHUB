@@ -1,5 +1,6 @@
 <x-layout>
 <h1>Cadastro de máquinas</h1>
+<a href="/">Tela Inicial</a>
 <form action="/maquinas/cadastro" method="post">
     <input type="text" placeholder="Modelo" name="modelo" required>
     <input type="text" placeholder="Valor" name="valor" required>

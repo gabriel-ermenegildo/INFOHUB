@@ -1,6 +1,6 @@
 <x-layout>
 <h1>Cadastro de Cliente</h1>
-
+<a href="/">Tela Inicial</a>
 <form action="/clientes/cadastro" method="post">
     <input type="text" placeholder="Nome" required name="nome">
     <input type="text" placeholder="Celular" name="cel" maxlength="11">
