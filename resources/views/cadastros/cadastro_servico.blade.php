@@ -16,7 +16,7 @@
         @endforeach
     </select>
     <select name="id_tipo_de_servico" required>
-        <option selected hidden disabled value="">Selcione um serviço</option>
+        <option selected hidden disabled value="">Selcione um serviço</option>          
         @foreach($servicos as $s)
             <option value="{{ $s->id }}"> {{ $s->nome }} </option>
         @endforeach

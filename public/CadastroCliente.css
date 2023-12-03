@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(89,147,208);
+    background: radial-gradient(circle, rgba(89,147,208,1) 0%, rgba(9,22,77,1) 100%);
+    backdrop-filter: blur(5px); 
+}
+.containerCliente{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imgLogo{
+   display: flex;
+   justify-content: space-evenly;
+
+}
+#vermelho{
+    color: #C9463E;
+}
+.logo{
+    background-color:rgba(19, 37, 130, 1);
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.logo span{
+    color: white;
+    font-size:3em;
+    font-weight: bolder;
+}
+.span_titulo{
+    margin: 0px 60px;
+    padding-top: 1%;
+    /* padding-top:20%; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.alugada{
+    display: flex;
+    font-size: 18px;
+    font-weight: 900;
+}
+.cadastroAluguel{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 3%;
+
+}
+.labelAluguel{
+    display: flex;
+    align-items: center;
+    margin: 4%;
+}
+#logo{
+   padding-top:1%;
+    width: 70%;
+    height: 90%;
+}
+#seta{
+    width: 78%;
+    height: 74%;
+    /* margin: 0% 1.5%; */
+}
+.cadastro{
+    display: flex;
+    background-color: white;
+    width: 75%;
+    height: auto;
+    border-radius: 20px;
+    filter: drop-shadow(9px 6px 4px rgba(0, 0, 0, 0.25));
+
+}
+.inputClientetex{
+    border-radius: 20px;
+    margin: 1.5%;
+    border: 0.9px solid black;
+    width: 85%;
+    filter: drop-shadow(9px 6px 4px rgba(0, 0, 0, 0.25));  
+}
+.inputClientetex::placeholder{
+    color: #C9463E;
+    padding-top: 8px;
+    padding-left:20px;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+.inputCliente{
+    border: 0.9px solid black;
+    height:40px;
+    width: 85%;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 50px; 
+    filter: drop-shadow(9px 6px 4px rgba(0, 0, 0, 0.25));  
+    transition: transform 1s;
+}
+.inputClienteMenor{
+    border: 0.9px solid black;
+    height: 29px;
+    width: 41%;
+    padding: 15px;
+    margin: 1.5%;
+    border-radius: 50px; 
+    filter: drop-shadow(9px 6px 4px rgba(0, 0, 0, 0.25));  
+}
+::placeholder{
+    color: #C9463E;
+    padding-left:5px;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cadastroCliente{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.formCliente{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.btnSalvar_aluguel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color:rgba(36, 32, 86, 1);
+    filter: drop-shadow(7px 11px 4px rgba(0, 0, 0, 0.25));
+    border: 0.9px solid black;
+    height:40px;
+    padding: 15px;
+    margin: 1.5%;
+    border-radius: 50px; 
+    text-align: center;
+    align-items: center;
+    font-size: 2.5vmin;
+}
+.btnSalvarCliente{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    color: white;
+    background-color:rgba(36, 32, 86, 1);
+    filter: drop-shadow(7px 11px 4px rgba(0, 0, 0, 0.25));
+    border: 0.9px solid black;
+    height:40px;
+    padding: 15px;
+    margin: 1.5%;
+    border-radius: 50px; 
+    text-align: center;
+    align-items: center;
+    font-size: 2.5vmin;
+}
+
+@media (min-width:640px) and (max-width:1008px) {
+
+    body{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+    }
+    .imgLogo{
+        justify-content: flex-start;
+    }
+    .cadastro{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 85%;
+        height: auto;
+        margin: 20px 0px;
+    
+    }
+    .span_titulo{
+        padding: 1% 0%;
+        font-size: 3.5em;      
+    }
+    .logo span{
+        font-size:2em;
+    }
+    
+    .logo{
+        border-radius: 15px 15px 0px 0px;
+       
+    }
+    #logo{
+        padding-top: 4px;
+        width: 45%;
+        height: 62%;
+        margin-left: 0%;
+        /* padding-top:15px;
+        width: 50%;
+        height: 70%; */
+        /* margin-left: 4%; */
+     }
+     #seta{
+        /* width: 39%;
+        height: 78%; */
+        width: 39%;
+        height: 67%;
+        margin: 3% -4.5%;
+        /* margin: 1% 3.5%; */
+        /* width: 80px;
+        height: 55px;
+        margin:21% 1.5%; */
+    }
+    .inputClientetex{
+        margin: 4% 0%;
+        width: 95%;
+       
+    }
+    .inputCliente{
+        width: 97%;
+        padding: 22px;
+        margin: 2%;
+        border-radius: 50px; 
+        filter: drop-shadow(9px 6px 4px rgba(0, 0, 0, 0.25));  
+    }
+    .btnSalvarCliente{
+        padding: 22px;
+    }
+}
+
+@media (max-width: 639px) {
+    body{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+    }
+    .cadastro{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 85%;
+        height: auto;
+        margin: 20px 0px;
+    
+    }
+    .span_titulo{
+        padding: 5% 0%;      
+    }
+    .logo span{
+        font-size:2.7em;
+    }
+    .logo{
+        border-radius: 15px 15px 0px 0px;
+       
+    }
+    #logo{
+        padding-top: 9px;
+        width: 50%;
+        height: 70%;
+        margin-left: -16%;
+        /* padding-top:15px;
+        width: 50%;
+        height: 70%;
+        margin-left: 4%; */
+     }
+     #seta{
+        width: 39%;
+        height: 63%;
+        margin: 4% 1.5%;
+        /* widt h: 80px;
+        height: 55px;
+        margin:21% 1.5%; */
+    }
+    .inputClientetex{
+        margin: 4% 0%;
+        width: 95%;
+       
+    }
+    .inputCliente{
+        width: 97%;
+        padding: 15px;
+        margin: 2%;
+        border-radius: 50px; 
+        filter: drop-shadow(9px 6px 4px rgba(0, 0, 0, 0.25));  
+    }
+    .inputClienteMenor{
+        width: 46%;
+        padding: 15px;
+        margin: 2%; 
+    }
+    .btnSalvarCliente{
+        font-size: 3.5vmin;
+    }
+  }

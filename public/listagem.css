@@ -1,0 +1,112 @@
+.btnCadastro{
+  margin: 10px;
+    border-radius: 16px;
+    padding: 7px;
+    background-image: linear-gradient(135deg, rgba(1, 53, 103, 1), rgba(8, 115, 185, 0.9));
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+.btnCadastro:hover{
+ background-color:  hsla(206, 100%, 11%, 0.954);
+}
+
+.btn-editar{
+  width: 100%;
+  border-radius: 17px;
+  background-image: linear-gradient(135deg, rgba(1, 53, 103, 1), rgba(8, 115, 185, 0.9));
+  padding: 7px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+.btn-editar:hover{
+  background-color:  hsla(206, 100%, 11%, 0.954);
+
+}
+.btn-exluir{
+  width: 100%;
+  border-radius: 17px;
+  background: rgb(224,0,0);
+  background: linear-gradient(322deg, rgba(224,0,0,0.8374999658066351) 0%, rgba(128,11,11,1) 53%);
+  padding: 7px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+.btn-exluir:hover{
+  background-color:  rgb(49, 0, 0);
+}
+/* MOBILE */
+@media (max-wicth:1148px ){
+    
+}
+
+@media (max-width:1126px) {
+  .navigation {
+    padding: 18px 20px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .menu.ativo .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .menu.ativo .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu.ativo .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 130px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    gap: -10px;
+    transition: 0.3s;
+  }
+
+   .nav-menu.ativo {
+        right: 0;
+    }
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .navigation ul li a {
+      cursor: pointer;
+      font-size: 1.2rem;
+      color: var(--secondary-color);
+    }
+
+    /* MAIN */
+    .home {
+        padding: 120px 2%;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        gap: 2em;
+    }
+
+    .home-text {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .home-image {
+        width: 125%;
+    }
+}
+
