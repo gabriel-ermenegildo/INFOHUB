@@ -15,7 +15,7 @@
     
             <ul class="nav-menu">
               <li class="nav-item"><a href="/clientes/listagem"><i class='bx bx-user'></i> Clientes</a></li>
-              <li class="nav-item"><a href="/maquinas/cadastro"><i class='bx bx-cog'></i> Máquinas</a></li>
+              <li class="nav-item"><a href="/maquinas/listagem"><i class='bx bx-cog'></i> Máquinas</a></li>
               <li class="nav-item"><a href="/servicos/listagem"><i class='bx bx-briefcase'></i> Serviços</a></li>
             </ul>
             <div class="menu">

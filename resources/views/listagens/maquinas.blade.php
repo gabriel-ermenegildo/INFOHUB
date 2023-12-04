@@ -2,11 +2,14 @@
 <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <link rel="stylesheet" href="/listagem.css">
+
+<a href="/maquinas/cadastro"><button class="btnCadastro">Cadastrar Máquina</button></a>
 <div  class="table-responsive-sm">
     <table class="table-responsive-sm table align-middle">
         <thead>
             <tr>
-                <th scope="row">Modelo</th>
+                <th scope="row"></th>
+                <th scope="col">Modelo</th>
                 <th scope="col">Valor</th>
                 <th scope="col">Nº de série</th>
                 <th scope="col">Alugada?</th>
