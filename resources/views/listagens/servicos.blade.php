@@ -22,8 +22,8 @@
             <tr scope="row">
                 <td>R${{number_format($s->orcamento, 2, ',', '.'); }}</td>
                 <td>{{ $s->tipo->nome }}</td>
-                <td>{{date('d/m/Y', strtotime($s->data )); }}</td>
-                <td>{{date('d/m/Y', strtotime($s->data_de_devolucao )); }}</td>
+                <td>{{ $s->dataFormatada(); }}</td>
+                <td>{{ $s->dataDeDevolucaoFormatada(); }}</td>
                 <td>{{ $s->cliente->nome}}</td>
                 <td>{{ $s->maquina->modelo}}</td>
             </tr>
