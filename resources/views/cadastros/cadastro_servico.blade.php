@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<div class="cadastroCliente">
+<div class="containerCliente">
     <div class="cadastro">
 
 

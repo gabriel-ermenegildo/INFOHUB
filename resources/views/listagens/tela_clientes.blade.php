@@ -7,7 +7,7 @@
         <h1>Listagem de Clientes</h1>
         <a href="/clientes/cadastro"><button class="btnCadastro">Cadastrar Cliente</button></a>
     </div>
-    <input id="searchbar" type="text" name="searchbar" placeholder="Pesquisar Clientes" onkeyup="search()">
+    
     <table class="table table-sm">
         <thead>
             <tr>

@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 
 class ClienteController extends Controller
 {
+    
+
     public function listagem()
     {
         $clientes = Clientes::all();
